@@ -1,0 +1,14 @@
+
+11월 06, 2016 22:52:46.13 NEW SESSION
+11월 06, 2016 22:52:46.13 [4716:1700:1106/225246:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+11월 06, 2016 22:52:46.13 [4716:1700:1106/225246:ERROR:gl_surface_egl.cc(612)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+11월 06, 2016 22:52:46.71 [4392:1984:1106/225246:ERROR:native_process_launcher.cc(137)] Can't find manifest for native messaging host net.ietab.ietabhelper.peruser
+11월 06, 2016 22:52:46.71 [4392:3024:1106/225246:ERROR:native_process_launcher.cc(137)] Can't find manifest for native messaging host net.ietab.ietabhelper.perbox
+11월 06, 2016 22:52:46.73 [4392:1496:1106/225246:ERROR:native_process_launcher.cc(137)] Can't find manifest for native messaging host net.ietab.ietabhelper.peruser
+11월 06, 2016 22:52:46.76 [4392:3024:1106/225246:ERROR:native_process_launcher.cc(137)] Can't find manifest for native messaging host net.ietab.ietabhelper.perbox
+11월 06, 2016 22:52:47.96 [1106/225247:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+11월 06, 2016 22:53:19.98 [1106/225319:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+11월 06, 2016 22:53:20.00 [1106/225320:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+11월 06, 2016 22:53:20.00 [1106/225320:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+11월 06, 2016 22:53:20.00 [1106/225320:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+11월 06, 2016 22:53:20.01 [1106/225320:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
