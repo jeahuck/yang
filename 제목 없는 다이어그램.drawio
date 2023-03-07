@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T05:25:53.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pwX3ITdre3UCEbcaRQZx" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T06:36:10.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RbzM37RmpKVhcarSzITK" version="21.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,45 +10,11 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="OINT01IN&lt;br&gt;(SAP 인터페이스 연동 테이블&lt;br&gt;&amp;nbsp;업체정보수신)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="302.5" y="-20" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="에뛰드 거래처" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
-          <mxGeometry x="0.6" y="-10" relative="1" as="geometry">
-            <mxPoint x="10" y="-10" as="offset" />
-            <mxPoint x="110" y="380" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="230" y="340" />
-              <mxPoint x="110" y="340" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="에스쁘아 거래처" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillOpacity=100;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;html=1;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
-          <mxGeometry x="-0.4857" y="-20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="330" y="380" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="280" y="380" />
-              <mxPoint x="280" y="340" />
-              <mxPoint x="230" y="340" />
-              <mxPoint x="230" y="220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="업체정보수신 인&lt;br&gt;터페이스 연동후 협력회사&lt;br&gt;입력 (ODPT03MT)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="160" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="데이터 존재&lt;br&gt;(구매 조직코드가 1600)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I-JEFlABPEIqV226sDMK-2" value="이니스프리 거래처" style="endArrow=classic;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endSize=8;shape=connector;edgeStyle=elbowEdgeStyle;verticalAlign=middle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="I-JEFlABPEIqV226sDMK-3">
-          <mxGeometry x="0.6364" y="-20" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="340" as="sourcePoint" />
-            <mxPoint x="480" y="380" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="460" y="360" />
-              <mxPoint x="440" y="360" />
-              <mxPoint x="480" y="320" />
-            </Array>
-            <mxPoint x="20" y="-20" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="I-JEFlABPEIqV226sDMK-3" value="현재 데이터에 넣어지지 않음" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
@@ -70,7 +36,124 @@
           <mxGeometry x="50" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I-JEFlABPEIqV226sDMK-10" value="OINT02IN&lt;br&gt;(SAP 인터페이스 연동 테이블&lt;br&gt;발주정보수신)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1000" y="-20" width="210" height="60" as="geometry" />
+          <mxGeometry x="1076" y="-80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="I-JEFlABPEIqV226sDMK-10" target="I-JEFlABPEIqV226sDMK-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="170" as="sourcePoint" />
+            <mxPoint x="1105" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-12" value="발주정보수신 &lt;br&gt;인터페이스 연동후 발주정보 입력(OPUR04MT)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1117.25" y="120" width="127.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-14" value="발주정보 대한 &lt;br&gt;상세 페이지&lt;br&gt;(OPUR04DT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1121" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-16" value="에뛰드 거래처" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="I-JEFlABPEIqV226sDMK-9">
+          <mxGeometry x="-0.619" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-17" value="에스쁘아 거래처" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7">
+          <mxGeometry x="1" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="390" as="sourcePoint" />
+            <mxPoint x="280" y="340" as="targetPoint" />
+            <mxPoint x="20" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-18" value="이니스프리 거래처" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="I-JEFlABPEIqV226sDMK-3">
+          <mxGeometry x="0.6364" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="340" />
+              <mxPoint x="460" y="340" />
+            </Array>
+            <mxPoint x="20" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="I-JEFlABPEIqV226sDMK-12" target="I-JEFlABPEIqV226sDMK-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="350" as="sourcePoint" />
+            <mxPoint x="1160" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="I-JEFlABPEIqV226sDMK-25" target="I-JEFlABPEIqV226sDMK-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="550" as="sourcePoint" />
+            <mxPoint x="1180" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="540" />
+              <mxPoint x="1010" y="540" />
+              <mxPoint x="1010" y="500" />
+              <mxPoint x="1180" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-24" value="에뛰드 거래처&lt;br&gt;(구매조직코드 1220)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I-JEFlABPEIqV226sDMK-20">
+          <mxGeometry x="-0.1933" relative="1" as="geometry">
+            <mxPoint x="20" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-25" value="에뛰드(오산)&lt;br&gt;사업장코드 1220&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="I-JEFlABPEIqV226sDMK-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="540" as="sourcePoint" />
+            <mxPoint x="1120" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-27" value="에뛰드(김천)&lt;br&gt;사업장코드 1221" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1020" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="I-JEFlABPEIqV226sDMK-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="500" as="sourcePoint" />
+            <mxPoint x="1250" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="500" />
+              <mxPoint x="1350" y="540" />
+              <mxPoint x="1250" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-29" value="에스쁘아(김천)&lt;br&gt;사업장코드 1620" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-30" value="에스쁘아 거래처&lt;br&gt;(구매조직코드 1600)" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="I-JEFlABPEIqV226sDMK-31">
+          <mxGeometry x="-0.6" y="60" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="540" as="sourcePoint" />
+            <mxPoint x="1440" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="540" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-31" value="에스쁘아(영업)&lt;br&gt;사업자코드 1690" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1380" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-JEFlABPEIqV226sDMK-32" value="협력회사 id로 연결가능" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="320" as="sourcePoint" />
+            <mxPoint x="1120" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
