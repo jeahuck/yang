@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T01:07:46.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nGcGi__KO9L5yV3DJ5KD" version="21.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-31T01:31:27.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ro-z_KH3a4cpX4ar0VJO" version="21.6.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -575,13 +575,13 @@
         <mxCell id="MDKdnZxOY-5Mph-ofcCe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MDKdnZxOY-5Mph-ofcCe-1" target="MDKdnZxOY-5Mph-ofcCe-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MDKdnZxOY-5Mph-ofcCe-1" value="발주" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MDKdnZxOY-5Mph-ofcCe-1" value="발주&lt;br&gt;(SAP I/F MMI0145)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MDKdnZxOY-5Mph-ofcCe-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MDKdnZxOY-5Mph-ofcCe-2" target="MDKdnZxOY-5Mph-ofcCe-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MDKdnZxOY-5Mph-ofcCe-2" value="발주 승인(SAP)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MDKdnZxOY-5Mph-ofcCe-2" value="발주 승인(SAP)&lt;br&gt;(SAP I/F MMI0147)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MDKdnZxOY-5Mph-ofcCe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MDKdnZxOY-5Mph-ofcCe-3" target="MDKdnZxOY-5Mph-ofcCe-1">
@@ -590,11 +590,28 @@
         <mxCell id="MDKdnZxOY-5Mph-ofcCe-3" value="SAP 에서 에뛰드 발주 진행" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MDKdnZxOY-5Mph-ofcCe-6" value="발주 확정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5WSvPA6Q2k73ZOM0w9fL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MDKdnZxOY-5Mph-ofcCe-6" target="5WSvPA6Q2k73ZOM0w9fL-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WSvPA6Q2k73ZOM0w9fL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MDKdnZxOY-5Mph-ofcCe-6" target="5WSvPA6Q2k73ZOM0w9fL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WSvPA6Q2k73ZOM0w9fL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MDKdnZxOY-5Mph-ofcCe-6" target="5WSvPA6Q2k73ZOM0w9fL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MDKdnZxOY-5Mph-ofcCe-6" value="발주 확정&lt;br&gt;(SAP I/F MMI0144)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MDKdnZxOY-5Mph-ofcCe-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="5WSvPA6Q2k73ZOM0w9fL-17" value="ODM시험성적서" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WSvPA6Q2k73ZOM0w9fL-20" value="제품관려서류&lt;br&gt;(MMI0175)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WSvPA6Q2k73ZOM0w9fL-22" value="ODM전성분등록(구버전 조회)&lt;br&gt;(MMI0175)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
