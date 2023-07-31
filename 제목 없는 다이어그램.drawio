@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T01:31:27.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ro-z_KH3a4cpX4ar0VJO" version="21.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-31T04:44:59.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6u05gXF8GEkSq8MtnNbW" version="21.6.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2261" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,7 +326,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VqX5FS7APS1ziMe3haIy" name="페이지-2">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -563,6 +563,133 @@
         </mxCell>
         <mxCell id="FW4n-M6tv-bWw09EMidn-98" value="공급리드타임" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#143642;" parent="FW4n-M6tv-bWw09EMidn-96" vertex="1">
           <mxGeometry y="50" width="140" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VdZ575JDehKfDvcwrkQL" name="거래처 및 계약">
+    <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zYe-CEcYqkwa3Jdao7I--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SIKSvAJo2dokZh2QUeK-1" target="zYe-CEcYqkwa3Jdao7I--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SIKSvAJo2dokZh2QUeK-1" value="거래처 신청&lt;br&gt;(MMI0146)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SeKUKITu-ck0wX9J7wox-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYe-CEcYqkwa3Jdao7I--1" target="1GmKFjbvSfGZf_6bAT8C-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYe-CEcYqkwa3Jdao7I--1" value="수신완료후&amp;nbsp;&lt;br&gt;협력회사 계정 완료&lt;br&gt;(수신 SAP 인터페이스: MMI0141)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-1" value="계약" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-2" value="&lt;br&gt;&amp;nbsp;협력업체코드 기준으로 계약서가 &lt;br&gt;만들어져있음(OCON01MT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-1" target="1GmKFjbvSfGZf_6bAT8C-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="340" as="sourcePoint" />
+            <mxPoint x="625" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-4" value="협력회사 id로 연결되어있음" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="957.7900920976772" y="308.21544507210365" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-5" value="에뛰드" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-6" value="에스쁘아" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-5" target="1GmKFjbvSfGZf_6bAT8C-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="590" as="sourcePoint" />
+            <mxPoint x="585" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="590" />
+              <mxPoint x="585" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1GmKFjbvSfGZf_6bAT8C-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="590" as="sourcePoint" />
+            <mxPoint x="795" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-9" value="해당 협력업체 안에 사업장 계약기간만료 진행" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-9" target="1GmKFjbvSfGZf_6bAT8C-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="390" as="sourcePoint" />
+            <mxPoint x="785" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-11" value="현황" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="140" width="80" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-11" target="1GmKFjbvSfGZf_6bAT8C-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="420" as="sourcePoint" />
+            <mxPoint x="835" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-14" target="1GmKFjbvSfGZf_6bAT8C-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-14" value="작성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1GmKFjbvSfGZf_6bAT8C-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="100" as="sourcePoint" />
+            <mxPoint x="735" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1GmKFjbvSfGZf_6bAT8C-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="100" as="sourcePoint" />
+            <mxPoint x="835" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-18" target="1GmKFjbvSfGZf_6bAT8C-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-18" value="템플릿관리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="140" width="80" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-1" target="1GmKFjbvSfGZf_6bAT8C-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="612" y="100" as="sourcePoint" />
+            <mxPoint x="925" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GmKFjbvSfGZf_6bAT8C-21" target="1GmKFjbvSfGZf_6bAT8C-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-21" value="품의" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="140" width="80" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-22" value="계약 작성 (OCON01MT,OCON01DT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-23" value="템플릿 작성&lt;br&gt;(OCON01CT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GmKFjbvSfGZf_6bAT8C-24" value="계약 작성에 대한 승인 여부&lt;br&gt;(OCON01MT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="425" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
